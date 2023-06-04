@@ -5,13 +5,24 @@
 
 body{
     background: #CCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
 }
 
 #clock {
+    display: inline;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: auto;
+    background: #000;
+    font-weight: bold;
+    border: 2px solid #fff;
+    user-select: all;
 }
 
 #remove{
@@ -19,7 +30,17 @@ body{
     margin: auto;
     padding: 2rem 3rem;
     color: snow;
-    background-color: red;
+    background-color: royalblue;
+    cursor: pointer;
+
+}
+
+#reset{
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    color: snow;
+    background-color: green;
     cursor: pointer;
 
 }
